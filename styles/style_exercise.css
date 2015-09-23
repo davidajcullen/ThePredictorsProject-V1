@@ -1,0 +1,342 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+body {
+	
+	background: #B7E0F6 url(../images/background_gradient.jpg) repeat-x 0px 0px;
+	}
+table, th, td {
+   text-align: center;
+}
+
+#info{
+color: #304674;
+	font-family: arial;
+	font-size: 30px;
+}
+
+#exercise_info{
+
+	color: #304674;
+	font-family: arial;
+	font-size: 20px;
+}
+#exercise_title{
+	margin-top: 10px;
+	color: #304674;
+	font-family: arial;
+	font-size: 30px;
+}
+#ex_buttons{
+	margin-top: 100px;
+	height: 100px;
+}
+#ex_info{
+	margin-top: 20px;
+	text-align: left;
+	margin-bottom: 50px;
+}
+		#course_session_title{
+			color: #003b6f;
+			margin-top: 10px;
+			margin-right: auto;
+			margin-left: auto;
+			vertical-align: middle;
+			
+				
+				}
+
+	.row:after{
+
+	clear: both;
+
+}
+.course_SubHead{
+   color: #304674;
+}
+.row{
+   margin-right: 50px;
+}
+
+#welcome{
+	color: #003D4C;
+	font-family: arial;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 20px;
+	}
+	#footer{
+		padding-top: 15px;
+		text-align: center;
+		font-family: arial;
+
+	}
+
+.course_SubHead{
+	color: #1097e1;
+}
+
+.col{
+
+	background: #c0d5db;
+	border-radius: 5px;
+	color: #fff;
+	padding: 10px .5%;
+	float: left;
+	margin: .5%;
+	width: 31%;
+	height:200px;
+
+}
+
+#post_area1{
+	height: 2000px;
+}
+
+.session_info1{
+
+	background: #c0d5db;
+	border-radius: 5px;
+	color: #397fdb;
+	padding: 10px .5%;
+	float: left;
+	margin: .5%;
+	width: 31%;
+	height:200px;
+
+}
+
+.session_img{
+
+	background: #c0d5db;
+	border-radius: 5px;
+	padding: 10px .5%;
+	float: left;
+	margin: .5%;
+	width: 31%;
+
+}
+.session_break{
+		float: left;
+		margin: 6.5%;
+		vertical-align: middle;
+}
+
+#button1{
+
+	margin: 10px;
+	padding: 10px;
+	background: #1097e1;
+	color: #fff;
+	border-radius: 8px;
+	vertical-align: middle;
+	text-align: center;
+	font-family: arial;
+	text-decoration: none;
+
+}
+
+#button{
+	padding: 5px .5%;
+	background: #003b6f;
+	color: #fff;
+	float: left;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	font-family: arial;
+
+}
+
+#title1{
+
+	color: #003b6f;
+
+}
+
+#session_title1{
+
+	color: #003b6f;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.line_break{
+
+position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+
+}
+	
+	.sidebar{
+			width:250px;
+			height: 800px;
+			background:#1097e1;
+			float:left;
+			}
+	
+.container {
+	width:1000px; 
+	margin:auto; 
+	background:#FFF;
+	}
+	
+	.content_wrapper{
+		width:1000px;
+		background:#FFF; 
+		margin:auto; 
+		
+		}
+	.head {
+		width:1000px; 
+		height:100px; 
+		background:#FFF; 
+		}
+
+
+		#logo {float:left;}
+		
+		#banner {float:right;}
+		
+		
+		.navbar {
+		width:1000px; 
+		height:50px; 
+		background:#52afe2;	
+		clear:both;
+	
+			}
+			
+		#menu {
+			line-height:50px; 
+			text-align: center;
+			}
+			
+			#menu li {
+				list-style-type:none; 
+				display:inline;	
+				}
+				
+				#menu a {
+					text-decoration:none;
+					font-size:16px; 
+					font-family:"Arial", cursive; 
+					color:#FFF; 
+					margin:5px; 
+					padding:6px;
+					}
+					
+					
+					#menu a:hover {
+						color:#525252;
+						}
+			
+
+					
+		.session_area {
+				width:auto;
+				height: auto;
+				
+				float:right;
+				text-decoration:none;
+					font-size:16px; 
+					font-family:"Arial", cursive; 
+					 
+				
+				}
+				
+		
+				.session_area img {
+					padding-top:10px; 
+					padding-left:10px; 
+					padding-right:10px; 
+					float:right;
+					
+					}
+					
+					.session_area p {margin-bottom:10px; text-align:center;}
+					
+					.session_area h2 {padding-bottom:10px;}
+
+
+
+	
+.footer_area{
+
+				vertical-align: middle;
+				text-align: center;
+				width:1000px; 
+				height:50px; 
+				background:#52afe2; 
+				color:#FFF; 
+				clear:both;	
+				margin: auto;
+				
+				
+}
+
+
+
+	#public_message{
+
+		text-align: center;
+		color: #1097e1;
+		margin: 100px 50px;
+
+	}
+
+	#login_btn{
+		text-align: center;
+		margin: -30px 10px;
+		padding: 10px 10%;
+		background: #1097e1;
+		color: #fff;
+
+
+
+	}
+
+	#logoffBtn{
+		text-align: center;
+		margin: -50px 20px;
+		padding: 5px 1%;
+		background: #000;
+		color: #fff;
+		float: right;
+	}
+
+	
+				

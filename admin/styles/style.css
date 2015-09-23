@@ -1,0 +1,488 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+background:#b0e0e6;	
+	
+	}
+
+	
+	
+	.wrapper {width:1000px; margin:auto;}
+	
+	.header {
+	margin-top: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	color: #F93;
+	background-image: url(../styles/bg-header.jpg);
+	height: 120px;
+	width: 1000px;
+	border-bottom-width: 2px;
+	border-bottom-style: groove;
+	border-bottom-color: #FFF;
+}
+
+
+/* edit session style */
+
+table.table_edit{
+	width: 700px;
+	vertical-align: center; 
+	background-color: #89DEE0;
+	color: #000;
+}
+
+table.table_edit tr{
+
+margin-top: 2px;
+	color: #000;
+	background-color: #89DEE0;
+}
+table.table_edit td{
+	margin-top: 2px;
+	margin-bottom: 10px;
+	height: 20px;
+}
+
+#edit_titles{
+	text-align: right;
+}
+
+#edit_s_header{
+	color: #fff;
+	text-align: center; 
+	background-color: #13bdc2;
+}
+
+#update_btn{
+	text-align: center;
+	margin: 50px 10px;
+	padding: 10px 5%;
+	background: #5AD1D4;
+	color: #000;
+	font-weight: bold;
+
+}
+
+
+
+/*course B style */
+
+table.table_sessionB{
+	width: 700px;
+	vertical-align: center; 
+	background-color: #80CCFF;
+	color: #000;
+}
+
+table.table_sessionB tr{
+
+margin-top: 2px;
+	color: #000;
+	background-color: #80CCFF;
+}
+table.table_sessionB td{
+	margin-top: 2px;
+	height: 20px;
+}
+
+
+table.table_exerciseB{
+	width: 700px;
+	vertical-align: center; 
+	background-color: #8099E6;
+	color: #000;
+}
+
+table.table_exerciseB tr{
+
+	margin-top: 2px;
+	color: #000;
+	background-color: #8099E6;
+}
+table.table_exerciseB td{
+	margin-top: 2px;
+	height: 20px;
+}
+
+#session_titlesB{
+	text-align: right;
+}
+
+#exercise_titlesB{
+	text-align: right;
+}
+
+#create_s_headerB{
+	color: #fff;
+	text-align: center; 
+	background-color: #0099ff;
+}
+
+#create_e_headerB{
+	color: #fff;
+	text-align: center; 
+	background-color: #0033cc;
+}
+
+#background{
+	width: 700px;
+	background-color: #66E0C2;
+	padding: 5px;
+}
+
+
+
+
+
+
+
+/*Course A style*/
+
+table.table_session{
+	width: 700px;
+	vertical-align: center; 
+	background-color: #FFBCBC;
+	color: #000;
+}
+
+table.table_session tr{
+
+margin-top: 2px;
+	color: #000;
+	background-color: #FFBCBC;
+}
+table.table_session td{
+	margin-top: 2px;
+	height: 20px;
+}
+
+
+table.table_exercise{
+	width: 700px;
+	vertical-align: center; 
+	background-color: #E88C8C;
+	color: #000;
+}
+
+table.table_exercise tr{
+
+	margin-top: 2px;
+	color: #000;
+	background-color: #E88C8C;
+}
+table.table_exercise td{
+	margin-top: 2px;
+	height: 20px;
+}
+
+#session_titles{
+	text-align: right;
+}
+
+#exercise_titles{
+	text-align: right;
+}
+
+#create_s_header{
+	color: #fff;
+	text-align: center; 
+	background-color: #fe5757;
+}
+
+#create_e_header{
+	color: #fff;
+	text-align: center; 
+	background-color: #D11919;
+}
+
+#scrollable{
+	height:500px; 
+	width: 720px; 
+	overflow: auto;
+}
+
+table.user_table{
+	margin-top: 2px;
+	text-align: left;
+	background-color: #99ccff;
+	color: #000;
+}
+
+table.user_table tr{
+margin-top: 2px;
+	border-left: 2px solid  #CCE6FF;
+	border-bottom: 2px solid  #CCE6FF;
+}
+table.user_table td{
+	margin-top: 2px;
+	height: 40px;
+	border-left: 2px solid #CCE6FF;
+	border-bottom: 2px solid #CCE6FF;
+}
+
+table.user_table1{
+margin-top: 10px;
+width: 700px;
+text-align: center;
+background-color: #99ccff;
+color: #000;
+}
+
+table.user_table1 tr{
+	border-left: 2px solid  #fff;
+	border-bottom: 2px solid  #fff;
+	background-color: #bbeeff;
+}
+table.user_table1 td{
+	border-left: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+}
+
+tbody.user_table1 { height:400px; overflow-y:scroll; display:block; }
+
+#table_header{
+	background-color: #5588ff;
+	padding: 5px;
+}
+
+#column_headers{
+	background-color: #99ccff;
+
+}
+#search{
+		text-align: center;
+		margin: 20px 10px;
+		padding: 5px 5%;
+		background: #5588ff;
+		color: #000;
+}
+
+#user_btn1{
+		text-align: center;
+		margin: 50px 10px;
+		padding: 10px 5%;
+		background: #5588ff;
+		color: #000;
+		font-weight: bold;
+
+}
+
+#user_btn3{
+		text-align: center;
+		margin: 5px;
+		padding: 10px 5%;
+		background: #5588ff;
+		color: #000;
+		font-weight: bold;
+
+}
+#user_btn2{
+		text-align: center;
+		margin: 50px 10px;
+		padding: 10px 5%;
+		background: #99ccff;
+		color: #000;
+		font-weight: bold;
+}
+
+
+
+#create_btnA{
+		text-align: center;
+		margin: 50px 10px;
+		padding: 10px 5%;
+		background: #fe5757;
+		color: #fff;
+}
+
+#create_btnB{
+		text-align: center;
+		margin: 50px 10px;
+		padding: 10px 5%;
+		background: #D11919;
+		color: #fff;
+}
+
+#create_btn1{
+		text-align: center;
+		margin: 50px 10px;
+		padding: 10px 5%;
+		background: #0099FF;
+		color: #fff;
+}
+
+
+#create_btn2{
+		text-align: center;
+		margin: 50px 10px;
+		padding: 10px 5%;
+		background: #0033CC;
+		color: #fff;
+}
+
+
+
+#course_admin_titleA{
+	margin-top: 20px;
+	color: #990000;
+}
+
+#course_admin_titleB{
+	margin-top: 20px;
+	color: #397fdb;
+}
+
+
+#admin_content{
+	margin-top: 50px;
+}
+.left {
+	font-family: "Arial";
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #13bdc2;
+	text-align: right;
+	display: block;
+	float: left;
+	height: 800px;
+	width: 200px;
+
+}
+
+.left a {
+	text-decoration:none; 
+	color:#FFF; 
+	font-family: "Arial";
+	font-size:18px; 
+	text-align:right; 
+	padding:8px; 
+	margin-bottom:8px;
+	display:block;
+	}
+	.left a:hover {color:#282828;}
+	
+	.left a:visited {color:#FFF; font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;}
+
+.right {
+	font-family: "Arial";
+	margin: 2px;
+	font-size: 18px;
+	color: #000;
+	background-image: url(../styles/bg-body.gif);
+	float: right;
+	height: 200px;
+	width: 795px;
+}
+
+.admin_home {
+	font-family: "Arial";
+	margin: 2px;
+	font-size: 18px;
+	color: #000;
+	background-image: url(../styles/bg-body.gif);
+	float: right;
+	height: 800px;
+	width: 795px;
+}
+
+.view_sessions {
+	font-family: "Arial";
+	margin: 2px;
+	font-size: 18px;
+	color: #000;
+	background-image: url(../styles/bg-body.gif);
+	float: right;
+	height: 800px;
+	width: 795px;
+}
+
+
+.quiz_questions{
+	margin-top:48px;
+	margin-left:auto;
+	margin-right:auto;
+	width:600px;
+	border:#333 1px solid;
+  border-radius:12px;
+	padding:12px;
+
+}
+
+.quiz_right {
+	font-family: "Arial";
+	margin: 2px;
+	font-size: 18px;
+	color: #000;
+	background-image: url(../styles/bg-body.gif);
+	float: right;
+	height: 800px;
+	width: 795px;
+}
+
+#is {
+	margin-top: 50px;
+	display:none;
+	background-color: #fff;
+
+}
+
+#ie{
+	margin-top: 50px;
+	display: none;
+	background-color: #fff;
+
+}
+
+#au{
+	margin-top: 50px;
+	display: none;
+	background-color: #fff;
+
+}
+
+
+
+#right_content {
+	font-family: "Arial";
+	margin: 2px;
+	font-size: 16px;
+	color: #fff;
+	background-image: url(../styles/bg-body.gif);
+	float: right;
+	height: 600px;
+	width: 795px;
+}
